@@ -1,14 +1,31 @@
-.nav{
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+
+@media (min-width: 450px) {
+  .nav .desktop{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  .nav .mobile{
+    display: none;
+  }
+}
+@media (max-width: 449px) {
+  .nav .desktop{
+    display: none;
+  }
+  .nav .mobile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+  }
 }
 
 .hello{
   text-align: center;
 }
 
-img{
+li img{
   position: relative;
   max-width: 80%;
   margin: 3rem auto 12rem;
@@ -22,4 +39,8 @@ img{
 
 .icons li{
   max-width: 40px;
+}
+.images{
+  align-items: center;
+
 }
