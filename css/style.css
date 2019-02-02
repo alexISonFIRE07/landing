@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.hello{
+  text-align: center;
+}
+
+img{
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto 12rem;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.icons li{
+  max-width: 40px;
+}
