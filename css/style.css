@@ -21,9 +21,21 @@
   }
 }
 
+body{
+  font-family: 'Cinzel'
+}
+
 .hello{
   text-align: center;
 }
+
+.carousel {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
 
 li img{
   position: relative;
@@ -39,8 +51,21 @@ li img{
 
 .icons li{
   max-width: 40px;
+  max-height: 40px;
 }
+
 .images{
   align-items: center;
+}
 
+p {
+  margin-bottom: 0px;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+footer {
+  text-align: center;
 }
