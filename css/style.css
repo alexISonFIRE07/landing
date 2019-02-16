@@ -1,4 +1,6 @@
 
+/* full site style */
+
 @media (min-width: 450px) {
   .nav .desktop{
     display: flex;
@@ -19,6 +21,10 @@
     flex-direction: column;
     list-style-type: none;
   }
+  .column, .columns {
+      margin-left: 1.55%;
+      margin-right: 1.01%;
+   }
 }
 /* this is to even out the slider and picture section */
 @media (min-width: 550px){
@@ -32,22 +38,8 @@ body{
   font-family: 'Cinzel'
 }
 
-.hello{
-  text-align: center;
-}
-
-.carousel {
-  max-width: 960px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-
-
-li img{
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto 12rem;
+p {
+  margin-bottom: 0px;
 }
 
 .icons{
@@ -61,21 +53,42 @@ li img{
   max-height: 40px;
 }
 
-.images{
-  align-items: center;
+li img{
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto 12rem;
 }
 
-p {
-  margin-bottom: 0px;
+footer {
+  text-align: center;
 }
+
+/*index.html page style */
+
+.hello{
+  text-align: center;
+}
+
+.carousel {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 
 img{
   max-width:100%;
   max-height: 100%;
 }
 
-
-
-footer {
-  text-align: center;
+/* about.html style */
+.aboutme img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.text span{
+  font-style: italic;
+  font-size: 2rem;
 }
