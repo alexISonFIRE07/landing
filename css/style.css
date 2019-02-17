@@ -28,7 +28,7 @@
 }
 /* this is to even out the slider and picture section */
 @media (min-width: 550px){
-.column, .columns {
+.column {
     margin-left: 1.55%;
     margin-right: 1.01%;
  }
@@ -40,6 +40,16 @@ body{
 
 p {
   margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: gray;
+  text-decoration: none;
 }
 
 .icons{
@@ -91,4 +101,14 @@ img{
 .text span{
   font-style: italic;
   font-size: 2rem;
+}
+
+/* pricing.html style */
+h4{
+  text-align: center;
+}
+
+/* contact.html style */
+.form .columns{
+  margin-left: 0px;
 }
